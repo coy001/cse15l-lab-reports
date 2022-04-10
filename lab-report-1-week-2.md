@@ -1,5 +1,4 @@
  # **Lab Report 1**
-
  ### **1.Installing VS Code**
  
  I.Go to https://code.visualstudio.com on your browser and install the appropriate version that fit your own operating system (MacOs,Windows,Linux), and this guide will use MacOs as example.
