@@ -11,7 +11,7 @@ II.Try to open the VS Code you just downloaded. If you successfully installed VS
 ![image](https://user-images.githubusercontent.com/103301184/162618002-38ee6f4f-e5fd-4b86-9528-0271069424db.png)
 
 ### **2.Remote Connecting**
-I.Find your course specific account on [Educational Technology Services](https://sdacs.ucsd.edu/~icc/index.php) , you can see an address like cs15lsp22zz@ieng6.ucsd.edu, but zz will be replaced by another two letters consistent with your course special account.
+I.Find your course specific account on [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php) , you can see an address like cs15lsp22zz@ieng6.ucsd.edu, but zz will be replaced by another two letters consistent with your course special account.
 
 II.Open teriminal, use ssh command to access your account:ssh cs15lsp22zz@ieng6.ucsd.edu (zz will be replaced)
 
@@ -65,7 +65,10 @@ IV.Use ssh command to log in your account ssh cs15lsp22zz@ieng6.ucsd.edu (zz wil
 ### **6.Optimizing Remote running**
 I.The Process already shows in part 4, just run WhereAmI.java both on your computer and on your account and see their difference. 
 
-![image](https://user-images.githubusercontent.com/103301184/162618079-5ee480ba-b0fe-429a-bd8c-a9e6e5e838df.png)
+II.You can use "edit command" after ssh your account, and use ; to separate the commands. And you can do it faster!
+
+![image](https://user-images.githubusercontent.com/103301184/163913006-16de1188-52fc-4212-bbe2-aa5c8815c55c.png)
+
 
 ### Thank You! 
 
