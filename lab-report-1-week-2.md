@@ -2,7 +2,7 @@
 
 ### **1.Installing VS Code**
  
- I.Go to https://code.visualstudio.com on your browser and install the appropriate version that fit your own operating system (MacOs,Windows,Linux), and this guide will use MacOs as example.
+ I.Go to [Page of VS Code](https://code.visualstudio.com) on your browser and install the appropriate version that fit your own operating system (MacOs,Windows,Linux), and this guide will use MacOs as example.
  
 ![image](https://user-images.githubusercontent.com/103301184/162617995-64676694-13a5-4c41-90d4-a33a5745d142.png)
 
@@ -11,7 +11,7 @@ II.Try to open the VS Code you just downloaded. If you successfully installed VS
 ![image](https://user-images.githubusercontent.com/103301184/162618002-38ee6f4f-e5fd-4b86-9528-0271069424db.png)
 
 ### **2.Remote Connecting**
-I.Find your course specific account on https://sdacs.ucsd.edu/~icc/index.php , you can see an address like cs15lsp22zz@ieng6.ucsd.edu, but zz will be replaced by another two letters consistent with your course special account.
+I.Find your course specific account on [Educational Technology Services](https://sdacs.ucsd.edu/~icc/index.php) , you can see an address like cs15lsp22zz@ieng6.ucsd.edu, but zz will be replaced by another two letters consistent with your course special account.
 
 II.Open teriminal, use ssh command to access your account:ssh cs15lsp22zz@ieng6.ucsd.edu (zz will be replaced)
 
