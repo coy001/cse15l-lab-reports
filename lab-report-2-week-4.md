@@ -17,5 +17,5 @@ The content in the testing file are two links for test:
 
 ![image](https://user-images.githubusercontent.com/103301184/165022435-ab7d0571-b04d-452c-9b34-d05c5f35ede4.png)
 
-### **4.The screenshot of symptoms**
+### **4.The reflection about symptoms**
 The symptom is caused because the while loop does not terminated sometimes. Therefore, adding some statement "if()" to determine whether "(", ")","[","]" is detected; if not detected, then return toReturn to terminate the while loop.
