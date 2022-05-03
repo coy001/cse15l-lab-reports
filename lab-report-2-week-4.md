@@ -9,9 +9,20 @@ II.add a inner while, to solve problem if the link contains "(" ")" "[" "]"
 
 ![image](https://user-images.githubusercontent.com/103301184/166409490-28f8303c-5ec1-40f6-baec-f7ac926e5737.png)
 
+III.to check if image is also return as ususal link
+
+![image](https://user-images.githubusercontent.com/103301184/166414763-bb26554e-ab87-46ed-a4cd-62718f6d16ef.png)
+
+
 
 
 ### **2.Linked to the test file**
+[test-file.md](https://github.com/coy001/cse15l-lab-reports/files/8608740/test-file.md)
+
+[invalid.md](https://github.com/coy001/cse15l-lab-reports/files/8608738/invalid.md)
+
+[image.md](https://github.com/coy001/cse15l-lab-reports/files/8608737/image.md)
+
 
 
 ### **3.The screenshot of symptoms and error**
@@ -26,6 +37,7 @@ Symptom2:
 
 Symptom3:
 
+![image](https://user-images.githubusercontent.com/103301184/166414706-4ada72b8-6c1d-4cad-9bff-df64964fa3c7.png)
 
 
 
@@ -39,4 +51,6 @@ Symptom2
 Some links contain "(" ")" and the name "[" "]", we should use a while loop to ensure get the right link
 
 Symptom3
+
+image should not be return as usual links
 
