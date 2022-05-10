@@ -35,4 +35,8 @@ III.Show $git commit and $git push in the account
 
 IV.The link that has been chaned:
 
-[the chaned file]()
+[the chaned file](https://github.com/coy001/MarkdownParse/blob/main/test.txt)
+
+### **3.Copy the whole directories with scp -r**
+
+I.
