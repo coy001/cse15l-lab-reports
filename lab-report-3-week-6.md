@@ -15,7 +15,7 @@ III.Screamshot of using alias to login (in the same picture)
 
 ![image](https://user-images.githubusercontent.com/103301184/167533874-79e3735c-1a24-402d-a0db-7fc0571af6b3.png)
 
-### **2.Setup github access from ieng6 **
+### **2.Setup github access from ieng6**
 
 I.Show where the public key stored on Github and in user account
 
@@ -39,4 +39,8 @@ IV.The link that has been chaned:
 
 ### **3.Copy the whole directories with scp -r**
 
-I.
+I.use scp -r to recursively upload file markdown-parser-main into scpecial account
+
+![image](https://user-images.githubusercontent.com/103301184/168727582-00d22e4f-4882-4f9f-863a-b4d516822559.png)
+
+
