@@ -39,7 +39,7 @@ IV.The link that has been chaned:
 
 ### **3.Copy the whole directories with scp -r**
 
-I.Use scp -r to recursively upload file markdown-parser-main into scpecial account
+I.Use scp -r to recursively copy the whole directory file into scpecial account
 
 ![image](https://user-images.githubusercontent.com/103301184/168743428-59a9d9b6-68b6-41b5-9b31-434d0568cd6b.png)
 
