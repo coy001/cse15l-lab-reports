@@ -39,8 +39,17 @@ IV.The link that has been chaned:
 
 ### **3.Copy the whole directories with scp -r**
 
-I.use scp -r to recursively upload file markdown-parser-main into scpecial account
+I.Use scp -r to recursively upload file markdown-parser-main into scpecial account
 
-![image](https://user-images.githubusercontent.com/103301184/168727582-00d22e4f-4882-4f9f-863a-b4d516822559.png)
+![image](https://user-images.githubusercontent.com/103301184/168743428-59a9d9b6-68b6-41b5-9b31-434d0568cd6b.png)
+
+II.Compile and run tests of the program in remote
+
+![image](https://user-images.githubusercontent.com/103301184/168743587-8190a6c8-6510-4341-84fa-e7b1f0c5bb72.png)
+
+III.Combine the command together
+
+![image](https://user-images.githubusercontent.com/103301184/168743676-8d69fcf8-5cd7-4b59-b2ce-663239f648b4.png)
+
 
 
