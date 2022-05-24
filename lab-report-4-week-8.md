@@ -14,8 +14,14 @@
         List<String> expected = List.of("url.com", "`google.com", "google.com", "ucsd.edu");
         assertEquals(expected, links);
     }
-    
-My Result:pass
+
+My Result: pass
+
+The Code make it pass:
+
+![image](https://user-images.githubusercontent.com/103301184/170042420-e0b28dd3-ec9f-40e1-b380-89cc2506c24d.png)
+
+It pass because the infinite loop is terminated
 
 Peer Result:
 
@@ -30,7 +36,13 @@ Peer Result:
         assertEquals(expected, links);      
     }
     
-My Result:expected:<[b.com, example.com]> but was:<[a.com(()), example.com]>
+My Result:expected:<[b.com, a.com(()), example.com]> but was:<[a.com(()), example.com]>
+
+The code make it fail:
+
+![image](https://user-images.githubusercontent.com/103301184/170043612-4ba0092b-d097-4797-a299-1356a3f56357.png)
+
+It fails because the while loop of both bracket and paren should be sepearate two while loop, one for bracket and one for paren. If we divide the while loop into two separate then b.com will be record.
 
 Peer Result:
 
@@ -59,6 +71,14 @@ And there's still some more text after that.
 
 ]>
  
+ The code make it fail:
+
+![image](https://user-images.githubusercontent.com/103301184/170043612-4ba0092b-d097-4797-a299-1356a3f56357.png)
+
+Reason and solution:
+
+It fails because it doesn't consider situatoin with space. If we delete spaces in the string file it will be plausible.
+
  Peer Result:
 
 ### **4.My Screenshot of Test**
