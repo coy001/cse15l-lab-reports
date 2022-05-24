@@ -15,15 +15,17 @@
         assertEquals(expected, links);
     }
 
-My Result: pass
+I.My Result: pass
 
-The Code make it pass:
+a.The Code make it pass:
 
 ![image](https://user-images.githubusercontent.com/103301184/170042420-e0b28dd3-ec9f-40e1-b380-89cc2506c24d.png)
 
+b.Reason:
+
 It pass because the infinite loop is terminated
 
-Peer Result:
+II.Peer Result:
 
 ### **2.Test of Snipped 2**
 
@@ -36,12 +38,13 @@ Peer Result:
         assertEquals(expected, links);      
     }
     
-My Result:expected:<[b.com, a.com(()), example.com]> but was:<[a.com(()), example.com]>
+I.My Result:expected:<[b.com, a.com(()), example.com]> but was:<[a.com(()), example.com]>
 
-The code make it fail:
+a.The code make it fail:
 
 ![image](https://user-images.githubusercontent.com/103301184/170043612-4ba0092b-d097-4797-a299-1356a3f56357.png)
 
+b.Reason and how to fix:
 It fails because the while loop of both bracket and paren should be sepearate two while loop, one for bracket and one for paren. If we divide the while loop into two separate then b.com will be record.
 
 Peer Result:
@@ -71,11 +74,11 @@ And there's still some more text after that.
 
 ]>
  
- The code make it fail:
+ a.The code make it fail:
 
 ![image](https://user-images.githubusercontent.com/103301184/170043612-4ba0092b-d097-4797-a299-1356a3f56357.png)
 
-Reason and solution:
+b.Reason and how to fix:
 
 It fails because it doesn't consider situatoin with space. If we delete spaces in the string file it will be plausible.
 
