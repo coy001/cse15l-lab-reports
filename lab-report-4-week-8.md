@@ -47,7 +47,7 @@ It fails it assumes if the link contain weird symbol like ` then do not output. 
         assertEquals(expected, links);      
     }
     
-I.My Result:expected:<[b.com, a.com(()), example.com]> but was:<[a.com(()), example.com]>
+I.My Result:expected:<[b.com, example.com]> but was:<[a.com(()), example.com]>
 
 a.The code make it fail:
 
