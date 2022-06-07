@@ -21,9 +21,11 @@ I.The Expected for testfile194 should be []
 
 But my result is [].
 
-Bug:
+My Code:
 
-Reason:
+![image](https://user-images.githubusercontent.com/103301184/172481208-1dc89dab-1acc-4ad9-839e-14dfb42f4343.png)
+
+My Bug:I only considers about pair brackets and parents, but never think about the situation.
 
 II.The Expected for testfile201 is [Expected201](https://github.com/coy001/my-markdown-parser/blob/main/test-files/201.md)
 
