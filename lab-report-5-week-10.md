@@ -17,7 +17,7 @@ I used vimdiff to implement
 
 Neither are correct in this situation.
 
-I.The Expected for testfile201 is [Expected194](https://github.com/coy001/my-markdown-parser/blob/main/test-files/194.md)
+I.The Expected for testfile201 is "my_(url)"
 
 But my result is [].
 
@@ -25,11 +25,14 @@ My Code:
 
 ![image](https://user-images.githubusercontent.com/103301184/172481208-1dc89dab-1acc-4ad9-839e-14dfb42f4343.png)
 
-My Bug:
+My Bug:The file actually refers to the link my_(url), but the code I implemented only dicide the result with a brackets and parens. Therefore, my code did not get any link from the file since it does not have a pair of brackets.
+
+Given Result is [url]
+
 
 II.The Expected for testfile201 is [Expected201](https://github.com/coy001/my-markdown-parser/blob/main/test-files/201.md)
 
-But my result is [].
+But my result is 
 
 Bug:
 
