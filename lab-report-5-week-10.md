@@ -17,7 +17,7 @@ I used vimdiff to implement
 
 Neither are correct in this situation.
 
-I.The Expected for testfile194 should be []
+I.The Expected for testfile201 is [Expected194](https://github.com/coy001/my-markdown-parser/blob/main/test-files/194.md)
 
 But my result is [].
 
@@ -25,7 +25,7 @@ My Code:
 
 ![image](https://user-images.githubusercontent.com/103301184/172481208-1dc89dab-1acc-4ad9-839e-14dfb42f4343.png)
 
-My Bug:I only considers about pair brackets and parents, but never think about the situation.
+My Bug:
 
 II.The Expected for testfile201 is [Expected201](https://github.com/coy001/my-markdown-parser/blob/main/test-files/201.md)
 
